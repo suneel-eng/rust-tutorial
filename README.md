@@ -1,7 +1,7 @@
 # RUST Tutorial
 
 ## Recommended
-If you are VScode as your IDE, install **rust-analyzer** extension.
+If you are using VScode as your IDE, install **rust-analyzer** extension.
 
 ## Covered Topics
 
@@ -32,3 +32,8 @@ A scalar type represents the type of value. Rust has four primary scalar types: 
 - Floating point number types are f32 and f64 (default).
 - Boolan type is bool.
 - Character type is char.
+
+### 6) 17/03/2024 - compound types
+Covered about compound data types, arrays and tuples.
+
+### 7) 17/03/2024 - functions
