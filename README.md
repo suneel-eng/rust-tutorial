@@ -37,3 +37,8 @@ A scalar type represents the type of value. Rust has four primary scalar types: 
 Covered about compound data types, arrays and tuples.
 
 ### 7) 17/03/2024 - functions
+
+### 8) 17/03/2024 - structs
+Covered about classic structs and tuple structs.
+
+### 9) 17/03/2024 - enums
