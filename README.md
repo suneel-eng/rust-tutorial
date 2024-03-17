@@ -21,7 +21,7 @@ Every cargo project contains a ```Cargo.toml``` file as a manifest file of the p
 If you see ```Cargo.lock``` file in your project, it is an auto-generated file by cargo. we don't touch this file.
 
 ### 3) 16/03/2024 - variable declarations
-About **let**, **mut** and **const** keywords.
+About let, mut and const keywords.
 
 ### 4) 16/03/2024 - scope and shadowing
 
@@ -42,3 +42,9 @@ Covered about compound data types, arrays and tuples.
 Covered about classic structs and tuple structs.
 
 ### 9) 17/03/2024 - enums
+
+### 10) 17/03/2024 - control flow
+Covered if, if else, if else if.
+
+### 11) 17/03/2024 - control flow
+Covered match.
