@@ -15,6 +15,8 @@ A simple hello world program.
 - Build the project ```cargo build```
 - Build and run the project ```cargo run```
 - Run tests ```cargo test```
+- Build code without executable to check errors ```cargo check```
+- Build for production ```cargo build --release```
 
 Every cargo project contains a ```Cargo.toml``` file as a manifest file of the project. This file contains the project related meta data like project name, version, dependencies, etc,.
 
@@ -48,3 +50,6 @@ Covered if, if else, if else if.
 
 ### 11) 17/03/2024 - control flow
 Covered match.
+
+### 12) 18/03/2024 - loops
+Covered loop, while loop and for loop.
