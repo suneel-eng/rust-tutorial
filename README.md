@@ -53,3 +53,5 @@ Covered match.
 
 ### 12) 18/03/2024 - loops
 Covered loop, while loop and for loop.
+
+### Project: Guess the number game
