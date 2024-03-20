@@ -54,8 +54,10 @@ Covered match.
 ### 12) 18/03/2024 - loops
 Covered loop, while loop and for loop.
 
-### Project 1: Guess the number game
+### Assignment 1: Guess the number game
 
-### Project 2: Temperature converter
+### Assignment 2: Temperature converter
 
-### Project 3: Nth Fibonacci number
+### Assignment 3: Nth Fibonacci number
+
+### Assignment 4: Twelve days of christmas song lyrics
