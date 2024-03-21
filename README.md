@@ -64,3 +64,5 @@ Covered loop, while loop and for loop.
 
 ### 13) 21/03/2024 - collections
 Covered vectors, strings and hash maps.
+
+### 14) 21/03/2024 - error handling
