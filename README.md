@@ -61,3 +61,6 @@ Covered loop, while loop and for loop.
 ### Assignment 3: Nth Fibonacci number
 
 ### Assignment 4: Twelve days of christmas song lyrics
+
+### 13) 21/03/2024 - collections
+Covered vectors, strings and hash maps.
