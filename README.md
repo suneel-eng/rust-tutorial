@@ -68,3 +68,5 @@ Covered vectors, strings and hash maps.
 ### 14) 21/03/2024 - error handling
 
 ### 15) 22/03/2024 - traits
+
+### 16) 22/03/2024 - lifetime generics
