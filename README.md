@@ -70,3 +70,14 @@ Covered vectors, strings and hash maps.
 ### 15) 22/03/2024 - traits
 
 ### 16) 22/03/2024 - lifetime generics
+
+### 17) 22/03/2024 - tests
+- By default all tests run in parallel means they run in multithread. Sometimes you want to run the tests one at a time. then you can run the command ```cargo test -- --test-threads=1```.
+- By default standard outputs using ```println!``` won't be printed on terminal. they only be printed if the test fails. If you want to show the standard output even the test success, then run the command ```cargo test -- --show-output```.
+- If you want to run particular test you can run the command ```cargo test <test-name>```. This command runs every test that contains the test-name.
+- If you want to run the ignored tests, run the command ```cargo test -- --ignored```.
+- If you want to run the all tests including ignored tests, then run the command ```cargo test -- --include-ignored```.
+- **Unit tests** are small and more focused, testing one module in isolation at a time and can test private interfaces.
+- **Integration tests** are excercising multiple modules per test.
+- After running ```cargo test``` command you see three sections of output include the unit tests, integration tests, and the doc tests. Note that if any test in a section fails, the following sections will not be run.
+- If you want to run only particular integration test, run the command ```cargo test --test <test-name>```.
