@@ -66,3 +66,5 @@ Covered loop, while loop and for loop.
 Covered vectors, strings and hash maps.
 
 ### 14) 21/03/2024 - error handling
+
+### 15) 22/03/2024 - traits
