@@ -81,3 +81,5 @@ Covered vectors, strings and hash maps.
 - **Integration tests** are excercising multiple modules per test.
 - After running ```cargo test``` command you see three sections of output include the unit tests, integration tests, and the doc tests. Note that if any test in a section fails, the following sections will not be run.
 - If you want to run only particular integration test, run the command ```cargo test --test <test-name>```.
+
+### Assignment 5: minigrep
