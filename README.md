@@ -83,3 +83,5 @@ Covered vectors, strings and hash maps.
 - If you want to run only particular integration test, run the command ```cargo test --test <test-name>```.
 
 ### Assignment 5: minigrep
+
+### 24/03/2024 - closures
