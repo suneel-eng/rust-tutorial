@@ -6,9 +6,9 @@ fn main() {
     // This tool will help you to find lines that contains a given string in a given file
     // Run the project with ```cargo run -- searchString path_to_file.txt
 
-    let arguments: Vec<String> = env::args().collect();
+    // let arguments: Vec<String> = env::args().collect();
     
-    let config: Config = Config::build(&arguments).unwrap_or_else(|error| {
+    let config: Config = Config::build(env::args()).unwrap_or_else(|error| {
         eprintln!("Problem in parsing arguments {error}");
         process::exit(1);
     });

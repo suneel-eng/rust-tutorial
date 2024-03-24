@@ -84,4 +84,6 @@ Covered vectors, strings and hash maps.
 
 ### Assignment 5: minigrep
 
-### 24/03/2024 - closures
+### 18) 24/03/2024 - closures
+
+### 19) 24/03/2024 - iterators
