@@ -87,3 +87,11 @@ Covered vectors, strings and hash maps.
 ### 18) 24/03/2024 - closures
 
 ### 19) 24/03/2024 - iterators
+
+### 20) 26/03/2024 - smart pointers
+- A pointer is a general concept for a variable that contains an address in memory. This address refers or points at some other data. The most common kind pointer in Rust is a reference which indicated by symbol &.
+- Smart pointers, on the other hand, are data structures that act like a pointer but also have additional metadata and capabilities. While references only borrow data, in many cases, smart pointers own the data they point to.
+- Smart pointers are usually implemented using structs. Unlike an ordinary struct, smart pointers implement the Deref and Drop traits.
+- The Deref trait allows an instance of the smart pointer struct to behave like a reference so you can write your code to work with either references or smart pointers.
+- The Drop trait allows you to customize the code that’s run when an instance of the smart pointer goes out of scope.
+- Many libraries have their own smart pointers, and you can even write your own. the most common smart pointers in the standard library are: 1) Box&lt;T&gt; for allocating values on the heap. 2) Rc&lt;T&gt;, a reference counting type that enables multiple ownership. 3) Ref&lt;T&gt; and RefMut&lt;T&gt;, accessed through RefCell&lt;T&gt;, a type that enforces the borrowing rules at runtime instead of compile time
