@@ -118,4 +118,10 @@ fn main() {
 
     println!("Reference count: {}", Rc::strong_count(&a));
 
+    // RefCell<T> and the Interior Mutability Pattern
+
+    // Interior mutability is a design pattern in Rust that allows you to mutate data even
+    // when there are immutable references to that data;
+    // normally, this action is disallowed by the borrowing rules
+
 }
