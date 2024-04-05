@@ -102,12 +102,18 @@ fn main() {
     // fly(cat); // this will throw error as Cat struct not implemented BirdActions trait.
 
 
-
     // 3) Abstarction
-
+    // The process of hiding the intricate code implementation details from the user and
+    // just provides the user with the necessary information.
     
+    // By default every field/method in struct is private. you can make them public by using pub keyword.
 
-    
 
     // 4) Polymorphism
+    // In computer science, polymorphism describes the concept of accessing objects of different types through the same interface.
+    // For example, in a programming language exhibiting polymorphism,
+    // class objects belonging to the same hierarchical tree may have functions with the same name,
+    // but with different behaviors.
+
+    // Using traits can be called as polymorphism
 }
