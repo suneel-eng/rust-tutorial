@@ -50,6 +50,59 @@ fn main() {
     // Inheritance is a mechanism whereby an object can inherit elements from another object’s definition,
     // thus gaining the parent object’s data and behavior without you having to define them again.
 
+    struct Cat;
+
+    struct Dog;
+
+    struct Eagle;
+
+    trait AnimalActions {
+        fn speak(&self);
+    }
+
+    trait BirdActions {
+        fn fly(&self);
+    }
+
+    impl AnimalActions for Cat {
+        fn speak(&self) {
+            println!("Meowwwww....");
+        }
+    }
+
+    impl AnimalActions for Dog {
+        fn speak(&self) {
+            println!("Bhow Bhow Bhow ...")
+        }
+    }
+
+    impl BirdActions for Eagle {
+        fn fly(&self) {
+            println!("I can fly...")
+        }
+    }
+
+    let cat = Cat{};
+    let dog = Dog{};
+    let eagle = Eagle{};
+
+    fn speak<T: AnimalActions>(object: T) {
+        object.speak();
+    }
+
+    fn fly<T: BirdActions>(object: T) {
+        object.fly();
+    }
+
+    speak(cat);
+    speak(dog);
+
+    fly(eagle);
+
+    // fly(cat); // this will throw error as Cat struct not implemented BirdActions trait.
+
+
+
     // 3) Abstarction
 
     
